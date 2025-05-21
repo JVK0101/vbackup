@@ -57,6 +57,7 @@ int read_int()
 
 void init_stuff()
 {
+    nrfx_uarte_t instance = NRFX_UARTE_INSTANCE(0); 
     const nrfx_uarte_config_t uarte_config = NRFX_UARTE_DEFAULT_CONFIG(PIN_TXD, PIN_RXD);
     nrfx_err_t err = nrfx_uarte_init(&instance, &uarte_config, NULL);
     nrfx_rtc_config_t rtc_config = NRFX_RTC_DEFAULT_CONFIG;
