@@ -22,7 +22,8 @@ SRC_FILES        += main.c
 SRC_FILES        += $(PROJ)/drivers/src/nrfx_uarte.c
 SRC_FILES        += $(PROJ)/drivers/src/nrfx_systick.c
 SRC_FILES		 += $(PROJ)/drivers/src/nrfx_rtc.c
-SRC_FILES        += list.c
+SRC_FILES        += simon_says.c
+#SRC_FILES        += list.c
 #SRC_FILES        += BSTree-4.c
 # Här kan ni länka till extra source filer ni vill använda.
 # SRC_FILES        += inte_en_riktigt_fil.c
