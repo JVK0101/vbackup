@@ -1,5 +1,7 @@
 #include "simon_says.h"
-
+#include <nrfx_systick.h>
+#include <stdio.h>
+#include <nrf.h>
 
 nrfx_uarte_t uarte_instance = NRFX_UARTE_INSTANCE(0); 
 

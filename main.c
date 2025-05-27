@@ -45,6 +45,7 @@ int main(void)
                 uarte_write(lose_msg, strlen(lose_msg));
                 send_int(round_counter - 1);
                 round_counter = 0;
+                start_counter();
                 break;
             }
             else if(i == round_counter - 1 && game_array[i] == player_array[i])
